@@ -1,0 +1,58 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-disc {
+  animation: rotate 10s linear infinite;
+}
+
+#music-player .rhap_time {
+  color: white;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+#music-player .rhap_progress-bar {
+  height: 2px;
+}
+
+#music-player .rhap_progress-indicator {
+  height: 10px;
+  width: 10px;
+  top: 1px;
+  transform: translateY(-50%);
+}
+
+#music-player .rhap_controls-section {
+  margin-top: 2px;
+}
+
+#music-player .rhap_controls-section .rhap_main-controls-button,
+#music-player .rhap_controls-section .rhap_repeat-button {
+  font-size: 22px;
+  width: fit-content;
+  height: fit-content;
+}
+#music-player .rhap_controls-section .rhap_volume-button {
+  font-size: 20px;
+  flex: 0 0 20px;
+  height: fit-content;
+}
+
+#music-player .rhap_volume-bar {
+  height: 2px;
+}
+
+#music-player .rhap_volume-indicator {
+  height: 8px;
+  width: 8px;
+  top: 1px;
+  background-color: #868686;
+  opacity: 1;
+  transform: translateY(-50%);
+}
